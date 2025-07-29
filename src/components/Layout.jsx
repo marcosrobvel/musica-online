@@ -15,7 +15,7 @@ export const Layout = () => {
                             <li><a href="#/instrumentostradicionales">Instrumentos tradicionales</a></li>
                             <li><a href="#/instrumentosdeviento">Instrumentos de viento</a></li>
                             <li><a href="#/dj">DJ</a></li>
-                            <li><a href="#/otros">Otros</a></li>
+                            <li><a href="#/otros" className="lastLinkMenu">Otros</a></li>
                         </ul>
                     </nav>
                 </div>
