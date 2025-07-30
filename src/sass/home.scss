@@ -1,3 +1,37 @@
-h1 {
-    
+h1, h2, p {
+    color: #bcb2b2;
+    font-family: "Oswald", sans-serif;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-classes, .services-2, .services-3 {
+    border: 1px solid #bcb2b2;
+    border-radius: 20px;
+    padding: 1rem;
+    padding-top: 0;
+    display: inline-block;
+    width: auto;
+
+    p {
+        font-family: "Oswald", sans-serif;
+        width: auto;
+        max-width: 500px;
+    }
+
+    img {
+        width: auto;
+        height: 300px;
+        
+    }
+}
+
+footer {
+    color: #bcb2b2;
+    bottom: 0;
+    position: absolute;
+    font-family: "Oswald", sans-serif;
 }
