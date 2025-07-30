@@ -1,5 +1,9 @@
 import React from "react";
 import { Layout } from "../components/Layout";
+import pianoImage from "../../public/img/pexels-photo-8520440.jpeg";
+import guitarImage from "../../public/img/istockphoto-596345112-612x612.jpg";
+import violinImage from "../../public/img/istockphoto-872697992-612x612.jpg";
+
 
 export const Home = () => {
   return (
@@ -16,7 +20,7 @@ export const Home = () => {
               <p>
                 Ofrecemos clases de guitarra, piano, batería y otros instrumentos. Nuestros profesores son profesionales con amplia experiencia.
               </p>
-              <img src="src\img\pexels-photo-8520440.jpeg" alt="Clases de música" />
+              <img src={pianoImage} alt="Clases de música" />
             </div>
             <div className="services-2">
               <p>
@@ -25,7 +29,7 @@ export const Home = () => {
               <p>
                 Ofrecemos clases de guitarra, piano, batería y otros instrumentos. Nuestros profesores son profesionales con amplia experiencia.
               </p>
-              <img src="src\img\istockphoto-596345112-612x612.jpg" alt="Clases de música" />
+              <img src={guitarImage} alt="Clases de música" />
             </div>
             <div className="services-3">
               <p>
@@ -34,7 +38,7 @@ export const Home = () => {
               <p>
                 Ofrecemos clases de guitarra, piano, batería y otros instrumentos. Nuestros profesores son profesionales con amplia experiencia.
               </p>
-              <img src="src\img\istockphoto-872697992-612x612.jpg" alt="Clases de música" />
+              <img src={violinImage} alt="Clases de música" />
             </div>
           </div>
           
