@@ -6,6 +6,7 @@ import { Layout } from './components/Layout'
 import { Home } from './pages/Home'
 import { Provider } from 'react-redux';
 import { store } from './app/store';
+import { DrumsPercussionPage } from './pages/DrumsPercussionPage';
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
           <Routes>
               <Route element={<Layout/>}>
                 <Route path='/' element={< Home />} />
+                <Route path='/bateriasypercusion' element={< DrumsPercussionPage />} />
               </Route>
           </Routes>
         </HashRouter>

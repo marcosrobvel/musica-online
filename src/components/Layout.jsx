@@ -1,7 +1,9 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 export const Layout = () => {
     return (
+        <>
         <header>
             <div>
                 <h1>Tienda de música</h1>
@@ -21,5 +23,10 @@ export const Layout = () => {
                 </div>
             </div>
         </header>
+
+        <main>
+            <Outlet />
+        </main>
+    </>
     );
 }

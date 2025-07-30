@@ -1,0 +1,48 @@
+header {
+  background-color: #d5d5d5;
+  color: #ffffff;
+  padding: 10px;
+}
+header h1 {
+  margin: 0;
+  color: #222222;
+  font-family: "Oswald", sans-serif;
+}
+header nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  width: auto;
+  list-style: none;
+  padding-left: 0;
+}
+header nav ul li {
+  padding: 0 1.5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #222222;
+  background-color: #ee5f5f;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+}
+header nav ul li a:hover {
+  background-color: #ff7f7f;
+}
+header nav ul li:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+body {
+  background-color: #222222;
+}
+
+/*# sourceMappingURL=styles.css.map */
