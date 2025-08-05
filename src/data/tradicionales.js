@@ -1,0 +1,212 @@
+ [
+  {
+    id: 1,
+    nombre: "Organic Green Tea",
+    categoria: "Tradicionales",
+    fecha_alta: "2/23/2025",
+    fecha_baja: "10/9/2024",
+    proveedor: "Mueller-Okuneva",
+    precio: 4.29,
+    stock: 208
+  },
+  {
+    id: 2,
+    nombre: "Wireless Charger",
+    categoria: "Tradicionales",
+    fecha_alta: "7/11/2025",
+    fecha_baja: "7/28/2025",
+    proveedor: "Hilll LLC",
+    precio: 24.99,
+    stock: 997
+  },
+  {
+    id: 3,
+    nombre: "Chocolate Peanut Butter Cups",
+    categoria: "Tradicionales",
+    fecha_alta: "2/18/2025",
+    fecha_baja: "3/1/2025",
+    proveedor: "Nader, Lehner and Sauer",
+    precio: 2.29,
+    stock: 441
+  },
+  {
+    id: 4,
+    nombre: "Lightweight Rain Jacket",
+    categoria: "Tradicionales",
+    fecha_alta: "11/13/2024",
+    fecha_baja: "11/15/2024",
+    proveedor: "Marvin, Gottlieb and DuBuque",
+    precio: 79.99,
+    stock: 461
+  },
+  {
+    id: 5,
+    nombre: "Magnetic Whiteboard",
+    categoria: "Tradicionales",
+    fecha_alta: "2/16/2025",
+    fecha_baja: "10/27/2024",
+    proveedor: "Schmidt Inc",
+    precio: 34.99,
+    stock: 681
+  },
+  {
+    id: 6,
+    nombre: "Pineapple Rings",
+    categoria: "Tradicionales",
+    fecha_alta: "9/20/2024",
+    fecha_baja: "9/28/2024",
+    proveedor: "Beer, Block and Turner",
+    precio: 2.49,
+    stock: 80
+  },
+  {
+    id: 7,
+    nombre: "Cabbage Slaw Mix",
+    categoria: "Tradicionales",
+    fecha_alta: "8/20/2024",
+    fecha_baja: "11/12/2024",
+    proveedor: "Mosciski Inc",
+    precio: 2.29,
+    stock: 84
+  },
+  {
+    id: 8,
+    nombre: "Water-Resistant Bluetooth Speaker",
+    categoria: "Tradicionales",
+    fecha_alta: "4/26/2025",
+    fecha_baja: "7/19/2025",
+    proveedor: "Buckridge Inc",
+    precio: 59.99,
+    stock: 271
+  },
+  {
+    id: 9,
+    nombre: "Smart Home Security Camera",
+    categoria: "Tradicionales",
+    fecha_alta: "7/2/2025",
+    fecha_baja: "2/1/2025",
+    proveedor: "Jacobi Group",
+    precio: 79.99,
+    stock: 511
+  },
+  {
+    id: 10,
+    nombre: "Marinara Parmesan Baked Ziti",
+    categoria: "Tradicionales",
+    fecha_alta: "9/6/2024",
+    fecha_baja: "4/18/2025",
+    proveedor: "Lemke, Schiller and Aufderhar",
+    precio: 8.49,
+    stock: 568
+  },
+  {
+    id: 11,
+    nombre: "Mango Chili Salsa",
+    categoria: "Tradicionales",
+    fecha_alta: "12/26/2024",
+    fecha_baja: "9/26/2024",
+    proveedor: "Breitenberg-Shanahan",
+    precio: 4.29,
+    stock: 882
+  },
+  {
+    id: 12,
+    nombre: "Silicone Stretch Lids",
+    categoria: "Tradicionales",
+    fecha_alta: "11/2/2024",
+    fecha_baja: "8/18/2024",
+    proveedor: "Fisher and Sons",
+    precio: 14.99,
+    stock: 336
+  },
+  {
+    id: 13,
+    nombre: "Trackpad for Laptop",
+    categoria: "Tradicionales",
+    fecha_alta: "11/3/2024",
+    fecha_baja: "12/24/2024",
+    proveedor: "Shanahan, Moore and Hintz",
+    precio: 49.99,
+    stock: 259
+  },
+  {
+    id: 14,
+    nombre: "Silicone Stretch Lids",
+    categoria: "Tradicionales",
+    fecha_alta: "9/29/2024",
+    fecha_baja: "1/10/2025",
+    proveedor: "Smith, Pouros and Hoppe",
+    precio: 14.99,
+    stock: 499
+  },
+  {
+    id: 15,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 15,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 16,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 17,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 18,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 19,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  },
+  {
+    id: 20,
+    nombre: "Chia Seed Pudding",
+    categoria: "Tradicionales",
+    fecha_alta: "1/16/2025",
+    fecha_baja: "2/6/2025",
+    proveedor: "Wiza, Lakin and Zemlak",
+    precio: 3.99,
+    stock: 862
+  }
+]

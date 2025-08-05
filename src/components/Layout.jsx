@@ -11,7 +11,7 @@ export const Layout = () => {
                     <nav>
                         <ul>
                             <li><a href="#/">Home</a></li>
-                            <li><a href="#/guiatarrasybajos">Guitarras y bajos</a></li>
+                            <li><a href="#/guitarrasybajos">Guitarras y bajos</a></li>
                             <li><a href="#/bateriasypercusion">Baterías y percusión</a></li>
                             <li><a href="#/teclados">Teclados</a></li>
                             <li><a href="#/instrumentostradicionales">Instrumentos tradicionales</a></li>
