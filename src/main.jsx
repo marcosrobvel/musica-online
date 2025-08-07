@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import { DrumsPercussionPage } from './pages/DrumsPercussionPage';
 import { GuitarsBassPage } from './pages/GuitarsBassPage';
+import { Keyboards } from './pages/Keyboards';
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/' element={< Home />} />
                 <Route path='/guitarrasybajos' element={< GuitarsBassPage />} />
                 <Route path='/bateriasypercusion' element={< DrumsPercussionPage />} />
+                <Route path='/teclados' element={< Keyboards />} />
               </Route>
           </Routes>
         </HashRouter>
