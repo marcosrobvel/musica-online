@@ -9,6 +9,7 @@ import { store } from './app/store';
 import { DrumsPercussionPage } from './pages/DrumsPercussionPage';
 import { GuitarsBassPage } from './pages/GuitarsBassPage';
 import { Keyboards } from './pages/Keyboards';
+import { Traditionals } from './pages/Traditionals';
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/guitarrasybajos' element={< GuitarsBassPage />} />
                 <Route path='/bateriasypercusion' element={< DrumsPercussionPage />} />
                 <Route path='/teclados' element={< Keyboards />} />
+                <Route path='/instrumentostradicionales' element={< Traditionals />} />
               </Route>
           </Routes>
         </HashRouter>
