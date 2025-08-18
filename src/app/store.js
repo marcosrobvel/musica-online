@@ -3,11 +3,13 @@ import drumsReducer from '../features/DrumsPercussionSlice';
 import guitarsReducer from '../features/GuitarsBassSlice';
 import keyboardsReducer from '../features/KeyboardsSlice';
 import traditionalsReducer from '../features/TraditionalsSlice';
+import windsReducer from '../features/WindsSlice';
 
 const rootReducer = combineReducers({
   drums: drumsReducer,
   guitars: guitarsReducer,
   keyboards: keyboardsReducer,
+  winds: windsReducer,
   traditionals: traditionalsReducer,
 });
 

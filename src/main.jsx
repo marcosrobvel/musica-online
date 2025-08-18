@@ -10,6 +10,7 @@ import { DrumsPercussionPage } from './pages/DrumsPercussionPage';
 import { GuitarsBassPage } from './pages/GuitarsBassPage';
 import { Keyboards } from './pages/Keyboards';
 import { Traditionals } from './pages/Traditionals';
+import { Wind } from './pages/Wind';
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/bateriasypercusion' element={< DrumsPercussionPage />} />
                 <Route path='/teclados' element={< Keyboards />} />
                 <Route path='/instrumentostradicionales' element={< Traditionals />} />
+                <Route path='/instrumentosdeviento' element={< Wind />} />
               </Route>
           </Routes>
         </HashRouter>
