@@ -15,7 +15,7 @@ h1, h2, p {
 }
 
 .services-classes, .services-2, .services-3 {
-    border: 1px solid #bcb2b2;
+    border: 2px solid #ee5f5f;
     border-radius: 20px;
     padding: 1rem;
     padding-top: 0;
@@ -44,21 +44,24 @@ h1, h2, p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5rem;
-    gap: 5rem;
+    margin-top: 10rem;
+    gap: 10rem;
 
-    &__guitar-prices {
-        background-color: #f5f5f5;
-        border: 1px solid #bcb2b2;
+    &__guitar-prices, &__piano-prices, &__bateria-prices {
+        background-color: #e2e2e2;
+        border: 2px solid #ee5f5f;
         border-radius: 10px;
         padding-left: 20px;
         padding-right: 20px;
+
+        & p{
+            color: #222222;
+        }
     }
 }
 
 footer {
     color: #bcb2b2;
     bottom: 0;
-    position: absolute;
     font-family: "Oswald", sans-serif;
 }
