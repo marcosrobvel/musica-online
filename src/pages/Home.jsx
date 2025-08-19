@@ -8,6 +8,7 @@ import violinImage from "../../public/img/istockphoto-872697992-612x612.jpg";
 export const Home = () => {
   return (
     <>
+      <div className="home">
           <h1>Bienvenido a nuestra tienda de música! 🎸</h1>
 
           <h2>Servicios</h2>
@@ -43,9 +44,15 @@ export const Home = () => {
           </div>
           
           <div className="services-prices">
-            <p>Clases de guitarra: $80/mes</p>
-            <p>Clases de piano: $100/mes</p>
-            <p>Clases de batería: $70/mes</p>
+            <div className="services-prices__guitar-prices">
+              <p>Clases de guitarra: $80/mes</p>
+            </div>
+            <div className="services-prices__piano-prices">
+              <p>Clases de piano: $100/mes</p>
+            </div>
+            <div className="services-prices__bateria-prices">
+              <p>Clases de batería: $70/mes</p>
+            </div>
           </div>
 
           <p>
@@ -54,6 +61,7 @@ export const Home = () => {
           <footer>
             <p>© 2023 Música Online. Todos los derechos reservados.</p>
           </footer>
+      </div>
     </>
   );
 };

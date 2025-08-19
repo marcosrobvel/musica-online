@@ -1,4 +1,4 @@
- [
+const data = [
   {
     id: 1,
     nombre: "Organic Green Tea",
@@ -210,3 +210,4 @@
     stock: 862
   }
 ]
+export default data;
