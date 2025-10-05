@@ -12,6 +12,7 @@ import { Keyboards } from './pages/Keyboards';
 import { Traditionals } from './pages/Traditionals';
 import { Wind } from './pages/Wind';
 import { Dj } from './pages/Dj';
+import { Others } from './pages/Others';
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/instrumentostradicionales' element={< Traditionals />} />
                 <Route path='/instrumentosdeviento' element={< Wind />} />
                 <Route path='/dj' element={< Dj />} />
+                <Route path='/otros' element={< Others />} />
               </Route>
           </Routes>
         </HashRouter>

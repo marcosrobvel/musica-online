@@ -1,5 +1,6 @@
 @import "header";
 @import "home";
+@import "modal";
 
 body {
   background-color: #222222;
@@ -11,5 +12,5 @@ table {
   border: 1px solid #ccc;
   color: #ccc;
   font-family: "Oswald", sans-serif;
-  border-radius: 20px;
+  border-radius: 20px; 
 }

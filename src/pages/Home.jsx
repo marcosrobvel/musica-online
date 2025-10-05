@@ -4,7 +4,6 @@ import pianoImage from "../../public/img/pexels-photo-8520440.jpeg";
 import guitarImage from "../../public/img/istockphoto-596345112-612x612.jpg";
 import violinImage from "../../public/img/istockphoto-872697992-612x612.jpg";
 
-
 export const Home = () => {
   return (
     <>
@@ -83,6 +82,8 @@ export const Home = () => {
             <p>© 2023 Música Online. Todos los derechos reservados.</p>
           </footer>
       </div>
+
+      
     </>
   );
 };
