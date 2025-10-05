@@ -4,7 +4,7 @@ import { KeyboardsTable } from "../components/KeyboardsTable";
 export const Keyboards = () => {
   return (
     <>
-      <div>
+      <div className="container-instruments">
         <KeyboardsTable />
       </div>
     </>

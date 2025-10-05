@@ -4,7 +4,7 @@ import { GuitarsBassTable } from "../components/GuitarsBassTable";
 export const GuitarsBassPage = () => {
   return (
     <>
-      <div>
+      <div className="container-instruments">
         <GuitarsBassTable />
       </div>
     </>

@@ -4,7 +4,7 @@ import { TraditionalsTable } from "../components/TraditionalsTable";
 export const Traditionals = () => {
   return (
     <>
-      <div>
+      <div className="container-instruments">
         <TraditionalsTable />
       </div>
     </>

@@ -4,7 +4,7 @@ import { WindsTable } from "../components/WindsTable";
 export const Wind = () => {
   return (
     <>
-      <div>
+      <div className="container-instruments">
         <WindsTable />
       </div>
     </>

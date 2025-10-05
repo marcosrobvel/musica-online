@@ -13,7 +13,7 @@ export const DrumsPercussion = () => {
 
   return (
     <div>
-      <h1>Drums y Percusión</h1>
+      <h1>Baterías y Percusión</h1>
       {datosTabla.length === 0 ? (
         <p>Cargando datos...</p>
       ) : (

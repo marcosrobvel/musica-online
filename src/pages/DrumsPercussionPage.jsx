@@ -4,7 +4,7 @@ import { DrumsPercussion } from "../components/DrumsPercussion";
 export const DrumsPercussionPage = () => {
   return (
     <>
-      <div>
+      <div className="container-instruments">
         <DrumsPercussion />
       </div>
     </>

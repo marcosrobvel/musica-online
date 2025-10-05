@@ -13,4 +13,13 @@ table {
   color: #ccc;
   font-family: "Oswald", sans-serif;
   border-radius: 20px; 
+
+  & tr:hover{
+    transform: scale(1.02);
+  }
+}
+
+.container-instruments {
+  margin: 0 auto;
+  padding: 2rem;
 }
